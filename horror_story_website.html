@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE FORGOTTEN FILES — Horror Stories</title>
+<meta name="description" content="A cinematic collection of allegedly true horror stories, strange places and unexplained encounters.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@400;500;600;700;800&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#070707;color:#eee;font-family:Inter,Arial,sans-serif;line-height:1.7}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.055;z-index:20;background-image:url("https://grainy-gradients.vercel.app/noise.svg")}
+nav{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:20px 6%;background:linear-gradient(#050505,transparent)}
+.logo{font-weight:800;letter-spacing:4px}.logo span{color:#b71919}
+nav a{color:#ddd;text-decoration:none;margin-left:26px;font-size:13px;text-transform:uppercase;letter-spacing:2px}
+.hero{min-height:92vh;display:flex;align-items:flex-end;padding:120px 6% 90px;position:relative;overflow:hidden;background:
+linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.45),rgba(0,0,0,.72)),
+url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=2200&q=85") center/cover}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:35%;background:linear-gradient(transparent,#070707)}
+.hero-content{max-width:850px;position:relative;z-index:2}
+.kicker{color:#c51d1d;text-transform:uppercase;letter-spacing:5px;font-size:12px;font-weight:700;margin-bottom:18px}
+h1{font-family:Creepster,Georgia,cursive;font-size:clamp(72px,12vw,160px);font-weight:400;line-height:.82;letter-spacing:3px;text-shadow:0 8px 35px #000}
+.hero p{max-width:650px;color:#cfcfcf;margin-top:28px;font-size:17px}
+.btn{display:inline-block;margin-top:30px;padding:13px 22px;border:1px solid #8d1818;color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:2px;font-size:12px;background:#9d1616;transition:.25s}
+.btn:hover{background:#c51d1d;transform:translateY(-2px)}
+section{padding:95px 6%;max-width:1250px;margin:auto}
+.section-label{color:#a71b1b;text-transform:uppercase;letter-spacing:4px;font-size:11px;font-weight:800}
+h2{font-size:42px;line-height:1.1;margin:12px 0 45px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#101010;border:1px solid #252525;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-6px);border-color:#6e1919}
+.card img{width:100%;height:245px;object-fit:cover;filter:brightness(.62) saturate(.75);display:block}
+.card-body{padding:25px}
+.tag{font-size:10px;color:#c92a2a;letter-spacing:2px;text-transform:uppercase}
+.card h3{font-size:22px;margin:9px 0}
+.card p{color:#aaa;font-size:14px}
+.read{display:inline-block;margin-top:16px;color:#eee;text-decoration:none;font-size:12px;text-transform:uppercase;letter-spacing:2px}
+.feature{display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}
+.feature img{width:100%;height:480px;object-fit:cover;filter:brightness(.65);border:1px solid #242424}
+.story{color:#c9c9c9;font-size:16px}
+.story p{margin:0 0 18px}
+.quote{border-left:2px solid #a71919;padding:15px 20px;margin:25px 0;color:#eee;font-style:italic;background:#0d0d0d}
+.warning{background:#100707;border:1px solid #4a1616;padding:18px;margin-top:20px;color:#d6baba;font-size:13px}
+footer{border-top:1px solid #222;text-align:center;padding:45px 20px;color:#777;font-size:12px;letter-spacing:1px}
+@media(max-width:800px){nav a{display:none}.grid,.feature{grid-template-columns:1fr}.hero{min-height:85vh}.feature img{height:350px}section{padding:70px 5%}h2{font-size:34px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">THE <span>FORGOTTEN</span> FILES</div><div><a href="#stories">Stories</a><a href="#featured">Featured</a><a href="#about">About</a></div></nav>
+
+<header class="hero">
+<div class="hero-content">
+<div class="kicker">Case Archive / 001 — 2026</div>
+<h1>DON'T<br>LOOK BACK.</h1>
+<p>Some stories are passed down as warnings. Others are buried because the people who witnessed them never found an explanation.</p>
+<a class="btn" href="#stories">Enter the archive</a>
+</div>
+</header>
+
+<section id="stories">
+<div class="section-label">The archive</div>
+<h2>Stories that should<br>stay in the dark.</h2>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=1000&q=85" alt="Dark forest at night"><div class="card-body"><div class="tag">Forest / Case 014</div><h3>The Voice Between the Trees</h3><p>A night trek. A voice calling from somewhere beyond the trail. The terrifying part: it knew his name.</p><a class="read" href="#forest">Read case →</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?auto=format&fit=crop&w=1000&q=85" alt="Abandoned building"><div class="card-body"><div class="tag">Abandoned / Case 027</div><h3>Room 307 Wasn't There</h3><p>A security guard recorded a door appearing on a corridor blueprint that had no corresponding room.</p><a class="read" href="#room">Read case →</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1505635552518-3448ff116af3?auto=format&fit=crop&w=1000&q=85" alt="Old empty hallway"><div class="card-body"><div class="tag">Hotel / Case 041</div><h3>The Guest Who Checked Out Twice</h3><p>One name appeared in the hotel register thirty years apart—with the same handwriting.</p><a class="read" href="#hotel">Read case →</a></div></article>
+</div>
+</section>
+
+<section id="featured">
+<div class="section-label">Featured investigation</div>
+<h2 id="forest">The Voice Between the Trees</h2>
+<div class="feature">
+<img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1400&q=85" alt="Foggy forest">
+<div class="story">
+<p>At 1:17 a.m., Arjun left the campsite to find the road. His phone showed no signal, but the flashlight still worked. Twenty minutes into the walk, he heard someone whisper, “Arjun.”</p>
+<p>He assumed it was his friend playing a prank. Then the voice came again—from behind him.</p>
+<div class="quote">“The voice sounded exactly like mine.”</div>
+<p>He ran toward the lights of the campsite. Every few minutes, the voice followed, always a few metres behind. When he finally reached the tent, everyone was asleep.</p>
+<p>In the morning, they found a second set of footprints around the tent. They began at the forest edge and stopped directly beside Arjun's sleeping bag.</p>
+<div class="warning">ARCHIVE NOTE: This is a fictionalized horror story presented in an “unexplained case file” style. Images are atmospheric photographic references, not evidence from the case.</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="section-label">Case 027</div>
+<h2 id="room">Room 307 Wasn't There</h2>
+<div class="feature">
+<div class="story">
+<p>The old hospital had been closed for eight years. During a routine inspection, a guard noticed a strange detail on a photocopied floor plan: Room 307.</p>
+<p>The third floor had Rooms 301 through 306, followed by a sealed stairwell. There was no 307.</p>
+<p>At 3:03 a.m., the guard's camera captured him standing in front of a newly visible door. The footage contains 19 seconds of static. When it returns, he is standing at the opposite end of the corridor.</p>
+<div class="quote">On the wall behind him: “307 — PLEASE KNOCK.”</div>
+<p>The building was demolished two weeks later. According to the archive, the door was never found again.</p>
+</div>
+<img src="https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=1400&q=85" alt="Abandoned interior">
+</div>
+</section>
+
+<section>
+<div class="section-label">Case 041</div>
+<h2 id="hotel">The Guest Who Checked Out Twice</h2>
+<div class="feature">
+<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85" alt="Dark hotel corridor">
+<div class="story">
+<p>Every hotel has an old register. This one had a name that appeared twice: <b>R. Sen — Room 12.</b></p>
+<p>The first entry was dated 1994. The second was dated 2024. Same room. Same signature. Same ink style.</p>
+<p>The night clerk said a man matching the description had stayed for exactly one night. At checkout, he asked a single question:</p>
+<div class="quote">“Is the corridor still there after midnight?”</div>
+<p>Staff laughed. The next morning, Room 12 was empty. The bed was made. But the guest's suitcase remained inside—and every clock in the room had stopped at 12:07.</p>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="section-label">About the archive</div>
+<h2>Stories. Shadows. Questions.</h2>
+<p style="max-width:780px;color:#aaa;font-size:17px">The Forgotten Files is a fictional horror-story archive designed around the feeling of late-night investigations, found footage and unexplained case reports. Each case can be expanded with new chapters, photographs, audio clips and video evidence.</p>
+</section>
+<footer>THE FORGOTTEN FILES © 2026 · HORROR STORY ARCHIVE · FICTIONAL / ATMOSPHERIC CONTENT</footer>
+</body>
+</html>
